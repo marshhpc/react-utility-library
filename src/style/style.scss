@@ -1,0 +1,31 @@
+:root {
+  --spacer: 1rem;
+  --spacer-0: 0px;
+  --spacer-1: calc(0.25 * var(--spacer));
+  --spacer-2: calc(0.5 * var(--spacer));
+  --spacer-3: var(--spacer);
+  --spacer-4: calc(1.5 * var(--spacer));
+  --spacer-5: calc(3 * var(--spacer));
+  overflow-y: scroll;
+}
+
+.inline-action {
+  display: inline-block;
+  width: 100px;
+  margin-left: var(--spacer-3);
+  vertical-align: middle;
+}
+
+pre {
+  background-color: var(--light);
+  padding: var(--spacer-3);
+  border-radius: var(--spacer-1);
+}
+
+p.name {
+  cursor: pointer;
+}
+
+p.name:hover {
+  text-decoration: underline;
+}
